@@ -75,6 +75,12 @@ a:focus, button:focus, input:focus {
     padding: 20px;
 }
 
+.logo-hero {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .hero-content h1 {
     font-size: clamp(2rem, 5vw, 3.5rem); /* Tamanho de fonte responsivo */
     margin-bottom: 10px;

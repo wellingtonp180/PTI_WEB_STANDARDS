@@ -1,0 +1,20 @@
+# Jekyll Configuration for ConnectFit Landing Page
+
+# Site settings
+title: ConnectFit
+description: Seu Personal Trainer em Casa - Treinos personalizados e acompanhamento 1-a-1
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*.pdf"
+  - "*.zip"
