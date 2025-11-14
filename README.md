@@ -1,1 +1,126 @@
-entrega de pti web standards
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectFit | Seu Personal Trainer em Casa</title>
+    <!-- Link para o arquivo de estilo --><link rel="stylesheet" href="style.css">
+    <!-- Fonte sugerida: Inter do Google Fonts para estética --><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- #1 HERO SECTION: PROPOSTA DE VALOR + CTA Imediato --><header id="inicio" class="hero-section" role="banner">
+        <div class="hero-content">
+            <!-- SUA LOGO: Adicionada no topo da seção, usando o link da imagem que você enviou --><img src="LOGOMARCA ConnectFit.png" alt="Logo da ConnectFit: fitness em casa com conexão" class="logo-hero">
+
+            <!-- H1 deve ser o principal foco e único na página --><h1>Conquiste Seu Corpo Ideal <strong>Sem Sair de Casa!</strong></h1>
+            <p class="subtitle">Treinos personalizados e acompanhamento 1-a-1, adaptados ao seu tempo e espaço.</p>
+            
+            <!-- CTA PRINCIPAL: AGORA COM LINK DIRETO PARA O WHATSAPP --><a 
+                href="https://wa.me/5511963279727?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20avalia%C3%A7%C3%A3o%20gratuita%20com%20o%20ConnectFit." 
+                target="_blank" 
+                class="cta-button" 
+                role="button" 
+                aria-label="Agende sua avaliação gratuita e comece a treinar via WhatsApp"
+            >
+                AGENDE SUA AVALIAÇÃO GRÁTIS VIA WHATSAPP!
+            </a>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal do site --><main>
+        <!-- #2 O PROBLEMA / A SOLUÇÃO: Conexão e Credibilidade --><section class="solution-section" aria-labelledby="solucao-titulo">
+            <h2 id="solucao-titulo">Cansado de Treinar Sozinho e Sem Resultados?</h2>
+            <div class="solution-grid">
+                <div class="problem">
+                    <h3>❌ Os Desafios Comuns</h3>
+                    <!-- Lista de dores do cliente --><ul>
+                        <li>Falta de motivação e rotina.</li>
+                        <li>Não sabe quais exercícios são eficazes em casa.</li>
+                        <li>Medo de se lesionar sem orientação profissional.</li>
+                    </ul>
+                </div>
+                <div class="solution">
+                    <h3>✅ Nossa Solução ConnectFit</h3>
+                    <!-- Lista de benefícios diretos --><ul>
+                        <li>Plano 100% adaptado ao seu espaço e objetivos.</li>
+                        <li>Aulas ao vivo ou gravadas com Personal Certificado.</li>
+                        <li>Resultados visíveis e mensuráveis em 8 semanas.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- #3 PROVA SOCIAL / METODOLOGIA --><section class="proof-section" aria-labelledby="prova-titulo">
+            <h2 id="prova-titulo">Quem Já Conquistou o Home Fitness?</h2>
+            <div class="testimonials-flex">
+                <!-- Testemunho 1 (Card) --><figure class="testimonial-card">
+                    <blockquote>
+                        "Graças ao ConnectFit, perdi 5kg em 2 meses, treinando apenas 3x por semana na sala!"
+                    </blockquote>
+                    <figcaption>— Ana L., Executiva.</figcaption>
+                </figure>
+                <!-- Testemunho 2 (Card) --><figure class="testimonial-card">
+                    <blockquote>
+                        "O Personal adaptou perfeitamente os treinos aos meus horários. É como ter uma academia particular!"
+                    </blockquote>
+                    <figcaption>— João C., Autônomo.</figcaption>
+                </figure>
+            </div>
+            <!-- CTA SECUNDÁRIO: COM LINK DIRETO PARA O WHATSAPP --><a 
+                href="https://wa.me/5511963279727?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20avalia%C3%A7%C3%A3o%20gratuita%20com%20o%20ConnectFit." 
+                target="_blank" 
+                class="cta-button secondary-cta" 
+                role="button"
+            >
+                SIM! QUERO MEU TREINO PERSONALIZADO!
+            </a>
+        </section>
+
+        <!-- #4 SOBRE O PROFISSIONAL: Autoridade e Conexão --><section class="about-section" aria-labelledby="sobre-titulo">
+            <h2 id="sobre-titulo">Conheça seu Personal Homefit, o Especialista ConnectFit</h2>
+            <div class="about-content">
+                <!-- Imagem do profissional com descrição acessível --><figure class="profile-photo">
+                    <img src="https://placehold.co/180x180/ff6b6b/ffffff?text=Personal" alt="Foto profissional do Personal Trainer, [Seu Nome].">
+                </figure>
+                <div class="about-text">
+                    <h3>Especialista em Treinamento Funcional Doméstico</h3>
+                    <p>Meu objetivo é provar que você não precisa de uma academia cheia ou equipamentos caros para ter o corpo que sempre sonhou. Transforme seu tempo e seu espaço em resultados reais e duradouros, com segurança e eficiência.</p>
+                    <p><strong>Qualificações:</strong> CREF [Número], Especialista em Treinamento de Força e Performance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- #5 FORMULÁRIO / CTA FINAL: Conversão --><section id="formulario" class="form-section" aria-labelledby="form-titulo">
+            <h2 id="form-titulo">Preencha o formulário e receba sua avaliação grátis, ou nos chame no WhatsApp!</h2>
+            <!-- Formulário com labels explícitas para acessibilidade e campos simples --><form class="contact-form">
+                <label for="nome">Seu Nome Completo:</label>
+                <input type="text" id="nome" placeholder="Nome" required>
+                
+                <label for="email">Seu Melhor E-mail:</label>
+                <input type="email" id="email" placeholder="email@exemplo.com" required>
+                
+                <label for="whatsapp">WhatsApp (DDD + Número):</label>
+                <input type="tel" id="whatsapp" placeholder="(99) 99999-9999" required>
+                
+                <!-- Botão de submissão para capturar o lead --><button type="submit" class="cta-button final-cta">Quero Receber Minha Avaliação!</button>
+                <small aria-live="polite">Garantimos a privacidade de seus dados. Você será contatado em até 24h.</small>
+                
+                <!-- Link de contato de busca (WhatsApp) repetido para fácil acesso --><p class="whatsapp-contact-link">
+                    Ou clique aqui para falar direto no 
+                    <a 
+                        href="https://wa.me/5511963279727?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20avalia%C3%A7%C3%A3o%20gratuita%20com%20o%20ConnectFit." 
+                        target="_blank" 
+                        title="Fale no WhatsApp"
+                    >
+                        WhatsApp!
+                    </a>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé --><footer role="contentinfo">
+        <p>&copy; 2025 ConnectFit. Todos os direitos reservados. | Contato WhatsApp: +55 (11) 96327-9727 | <a href="#inicio">Voltar ao topo</a></p>
+    </footer>
+</body>
+</html>
